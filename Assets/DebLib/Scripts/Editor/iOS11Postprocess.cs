@@ -9,7 +9,9 @@ public static class iOS11Postprocess
     [PostProcessBuild(101)]
     public static void OnPostProcessBuild(BuildTarget target, string path)
     {
-#if UNITY_IOS || true
+
+        
+#if UNITY_IOS
         //read and check json
         string xcodeAppIconContentsFile = path + "/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Contents.json";
         string xcodeAppIconContentsText = null;
