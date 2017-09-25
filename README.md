@@ -13,7 +13,7 @@ Unity3D로 XCode project를 export 할 경우 images.xcassets의 정보를 매�
 
 
 # 사용시 주의점
-사용할 이미지는 1024*1024 pt, 투명값이 없는 RGB Png 파일이어야 합니다.
+사용할 이미지는 1024x1024 px, 투명값이 없는 RGB PNG 파일이어야 합니다.
 
 사용할 이미지에는 border rounding 같은 효과가 없어야 합니다.
 
