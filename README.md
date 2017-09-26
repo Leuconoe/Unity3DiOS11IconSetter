@@ -17,6 +17,13 @@ Unity3D로 XCode project를 export 할 경우 images.xcassets의 정보를 매�
 
 사용할 이미지에는 border rounding 같은 효과가 없어야 합니다.
 
+# 사용법
+1. 다운로드
+2. Assets 폴더에 덮어쓴다
+3. Assets/Icons 폴더의 Icon-marketing.png 파일을 교체한다.
+	* 사용할 리소스는 기존의 AppStore에서 사용하던 1024x1024 사이즈의 이미즈를 그대로 사용하는것이 좋다.
+4. 빌드를 실행한다.
+
 
 # 개선할 사항
 - playerSetting에 있는 default icon을 이용한 처리
